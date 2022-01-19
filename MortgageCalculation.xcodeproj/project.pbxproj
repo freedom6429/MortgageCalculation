@@ -13,6 +13,7 @@
 		7A6903A327915D3500729A8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6903A127915D3500729A8D /* Main.storyboard */; };
 		7A6903A527915D3600729A8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6903A427915D3600729A8D /* Assets.xcassets */; };
 		7A6903A827915D3600729A8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A6903A627915D3600729A8D /* LaunchScreen.storyboard */; };
+		7A6903B027915DE600729A8D /* MortgageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6903AF27915DE600729A8D /* MortgageTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7A6903A427915D3600729A8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A6903A727915D3600729A8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A6903A927915D3600729A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A6903AF27915DE600729A8D /* MortgageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MortgageTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				7A69039D27915D3500729A8D /* SceneDelegate.swift */,
 				7A69039F27915D3500729A8D /* ViewController.swift */,
 				7A6903A127915D3500729A8D /* Main.storyboard */,
+				7A6903AF27915DE600729A8D /* MortgageTableViewController.swift */,
 				7A6903A427915D3600729A8D /* Assets.xcassets */,
 				7A6903A627915D3600729A8D /* LaunchScreen.storyboard */,
 				7A6903A927915D3600729A8D /* Info.plist */,
@@ -141,6 +144,7 @@
 				7A6903A027915D3500729A8D /* ViewController.swift in Sources */,
 				7A69039C27915D3500729A8D /* AppDelegate.swift in Sources */,
 				7A69039E27915D3500729A8D /* SceneDelegate.swift in Sources */,
+				7A6903B027915DE600729A8D /* MortgageTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +299,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +311,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,6 +328,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +340,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
